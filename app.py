@@ -4,7 +4,7 @@ restaurantes = [{'nome':'Praça', 'categoria':'Japonesa', 'ativo':False},
                 {'nome':'Pizza Supremo', 'categoria':'Pizza', 'ativo':True},
                 {'nome':'Cantina', 'categoria':'Italiano', 'ativo':False}]
 
-def exibir_nome_do_programa():
+def exibir_nome_do_app():
     '''Exibe o nome estilizado do programa na tela'''
 
     print("""𝕊𝕒𝕓𝕠𝕣 𝔼𝕩𝕡𝕣𝕖𝕤𝕤
@@ -145,7 +145,7 @@ def escolher_opcao():
 
 
 def main():
-    '''Função pricipal do programa '''
+    '''Função pricipal do app '''
     
     os.system('cls')
     exibir_nome_do_programa()
