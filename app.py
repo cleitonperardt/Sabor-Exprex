@@ -148,7 +148,7 @@ def main():
     '''Função pricipal do app '''
     
     os.system('cls')
-    exibir_nome_do_programa()
+    exibir_nome_do_app()
     exibir_opcoes()
     escolher_opcao()
 
